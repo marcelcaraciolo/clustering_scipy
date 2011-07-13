@@ -22,7 +22,7 @@ for lecture in data:
 		authors.setdefault(author,0)
 		authors[author]+=1
 
-print authors
+#print authors
 
 def getWords(text):
 	#Parse the statuses and returns the list of words for each text
@@ -48,9 +48,11 @@ def getWords(text):
 
 
 
-palestrantes = []
+lectures = []
 keywords = []
 
+
+'''
 f = open('keywords.txt','w')
 
 for lecture in data:
@@ -60,6 +62,58 @@ for lecture in data:
 	f.write(tgs)
 
 f.close()
+'''
+
+keywords_class = []
+
+#Let's hack the code!!
+for lecture in data:
+	tags = getWords(lecture['title'])
+	keywords.extend(tags)
+	lectures.append(lecture['title'])
+	keywords_class.append(tags)
+
+wordList = []
+
+for tag in keywords:
+	if tag not in wordList and tag not in [ 'python', 'keynote', 'using','building', 'computing' ]:
+		wordList.append(tag)
+
+keywords2 = []
+i = 0
+
+for tags in keywords_class:
+	keywords2.append([])
+	for word in wordList:
+		if word in tags:
+			keywords2[i].append((word,1))
+		else:
+			keywords2[i].append((word,0))
+	i+=1
+
+	
+g = kmeans.open_ubigraph_server()
+result,clusters = kmeans.kcluster(g,lectures,keywords2,k=8)
+
+dataClusters = []
+i = 0
+for cluster in result:
+	apCount = {}
+	for indice in cluster:
+		dados = keywords2[indice]
+		for word,count in dados:
+			apCount.setdefault(word,0)
+			apCount[word]+= count
+	words = apCount.items()
+	words.sort(key=operator.itemgetter(1))
+	words.reverse()
+	print words
+	print '====' 
+	dataClusters.append(words[0:10])
+
+
+kmeans.showResults(dataClusters)
+
 
 
 '''
