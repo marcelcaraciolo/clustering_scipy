@@ -1,0 +1,454 @@
+(lp0
+(dp1
+S'title'
+p2
+VIntroduction to NumPy with IPython and Matplotlib
+p3
+sS'authors'
+p4
+(lp5
+V - 
+p6
+asa(dp7
+g2
+VAn Introduction to Bayesian Statistical Modeling using PyMC
+p8
+sg4
+(lp9
+V - 
+p10
+asa(dp11
+g2
+VIntroduction to SciPy : optimization, linear algebra, statistics, and more...
+p12
+sg4
+(lp13
+V - 
+p14
+asa(dp15
+g2
+VStatistical Learning with scikit-learn
+p16
+sg4
+(lp17
+V - 
+p18
+asa(dp19
+g2
+VGuide to Symbolic Mathematics with SymPy
+p20
+sg4
+(lp21
+V - 
+p22
+asa(dp23
+g2
+VHigh Performance Parallel Computing in Python using NumPy and the Global Arrays Toolkit
+p24
+sg4
+(lp25
+V - 
+p26
+asa(dp27
+g2
+VIntroduction to Matplotlib, Traits, and Chaco - 
+p28
+sg4
+(lp29
+VCorran Webster
+p30
+asa(dp31
+g2
+VInteractive Parallel Computing with IPython and PyZMQ
+p32
+sg4
+(lp33
+V - 
+p34
+asa(dp35
+g2
+VKeynote: What Matters in Scientific Software Projects? 10 Years of Success and Failure Distilled
+p36
+sg4
+(lp37
+VEric Jones
+p38
+asa(dp39
+g2
+VHurricane Prediction with Python
+p40
+sg4
+(lp41
+VMinwoo Lee
+p42
+asa(dp43
+g2
+VA Software Framework in Python for Generating Optimal Isogeometric Kernels on the PowerPC 450
+p44
+sg4
+(lp45
+VAron Ahmadia
+p46
+aV Jed Brown
+p47
+aV Nathan Collier
+p48
+aV Tareq Malas
+p49
+aV John Gunnels
+p50
+asa(dp51
+g2
+VAutomation of Inertial Fusion Target Design with Python
+p52
+sg4
+(lp53
+VMatt Terry
+p54
+aV Joseph Koning
+p55
+asa(dp56
+g2
+VBringing Parallel Performance to Python with Domain-Specific Selective Embedded Just-in-Time Specialization
+p57
+sg4
+(lp58
+VShoaib Kamil
+p59
+asa(dp60
+g2
+VTime series analysis in Python with `statsmodels`
+p61
+sg4
+(lp62
+VWes McKinney
+p63
+aV Skipper Seabold
+p64
+aV Josef Perktold
+p65
+asa(dp66
+g2
+VUsing the Global Arrays Toolkit to Reimplement NumPy for Distributed Computation
+p67
+sg4
+(lp68
+VJeff Daily
+p69
+asa(dp70
+g2
+VThe Open Estuary: Using open source tools to model Texas estuaries
+p71
+sg4
+(lp72
+VSolomon Negusse
+p73
+aV Dharhas Pothina
+p74
+asa(dp75
+g2
+VPython Facilitating Code Refactoring Abstract
+p76
+sg4
+(lp77
+VBen Christenson
+p78
+aV Yahya Nazer
+p79
+asa(dp80
+g2
+VVision Spreadsheet: An Environment for Computer Vision
+p81
+sg4
+(lp82
+VScott Determan
+p83
+asa(dp84
+g2
+VA Technical Anatomy of SPM.Python, a Scalable, Parallel Version of Python
+p85
+sg4
+(lp86
+VMinesh B. Amin
+p87
+asa(dp88
+g2
+VKeynote: The Reality of Digital Science - How the Digital Age Affects Research
+p89
+sg4
+(lp90
+VKaitlin Thaney
+p91
+asa(dp92
+g2
+VIMUSim - Simulating inertial and magnetic sensor systems in Python
+p93
+sg4
+(lp94
+VMartin Ling
+p95
+asa(dp96
+g2
+VIPython: a new architecture for interactive and parallel computing
+p97
+sg4
+(lp98
+VFernando Perez
+p99
+aV Brian Granger
+p100
+aV Min Ragan-Kelley
+p101
+aV Evan Patterson
+p102
+aV Thomas Kluyver
+p103
+asa(dp104
+g2
+VSherpa Methods for Calculating Confidence Limits on Model Parameters
+p105
+sg4
+(lp106
+VBrian Refsdal
+p107
+asa(dp108
+g2
+VLessons Learned Building a Scalable Distributed Storage System in Python
+p109
+sg4
+(lp110
+VChuck Thier
+p111
+asa(dp112
+g2
+VImproving efficiency and repeatability of lake volume estimates using Python
+p113
+sg4
+(lp114
+VTyler McEwen
+p115
+aV Dharhas Pothina
+p116
+asa(dp117
+g2
+VAudGenDB: Intuitive biomedical query and reporting tool using Django
+p118
+sg4
+(lp119
+VByron Ruth
+p120
+asa(dp121
+g2
+VMeet Twiggy: A Pythonic Logger
+p122
+sg4
+(lp123
+VPete Fein
+p124
+asa(dp125
+g2
+VGoogle App Engine for Python
+p126
+sg4
+(lp127
+VDouglas Starnes
+p128
+asa(dp129
+g2
+VPyModel: Model-based testing in Python
+p130
+sg4
+(lp131
+VJonathan P Jacky
+p132
+asa(dp133
+g2
+VKeynote: Science in the Service of Awesome: Building on top of Scientific Computing
+p134
+sg4
+(lp135
+VHilary Mason
+p136
+asa(dp137
+g2
+VA Framework for Massively-Parallel Optimization and Rigorous Sensitivity Analysis
+p138
+sg4
+(lp139
+VMichael McKerns
+p140
+asa(dp141
+g2
+VCrab: A Recommendation Engine Framework for Python
+p142
+sg4
+(lp143
+V | Marcel Caraciolo
+p144
+aV Bruno Melo
+p145
+aV Ricardo Caspirro
+p146
+asa(dp147
+g2
+VExperiment Control Feedback with Web Services and Python
+p148
+sg4
+(lp149
+VPiotr A. Zolnierczuk
+p150
+aV Yu (Cathy) Jiao
+p151
+aV Richard E. Riedel
+p152
+asa(dp153
+g2
+VUsing Python, Partnerships, Standards and Web Services to provide Water Data for Texans
+p154
+sg4
+(lp155
+VDharhas Pothina
+p156
+aV Andrew Wilson
+p157
+asa(dp158
+g2
+VThe Technical and Social Challenges of Getting Python into a Multi-billion Dollar Enterprise
+p159
+sg4
+(lp160
+VJosh Hemann
+p161
+asa(dp162
+g2
+Vgpustats: GPU library for statistical computing
+p163
+sg4
+(lp164
+VWes McKinney
+p165
+aV Andrew Cron
+p166
+asa(dp167
+g2
+VDocumentation with Dexy
+p168
+sg4
+(lp169
+VAna Nelson
+p170
+asa(dp171
+g2
+VAn N-th order approximate interpolation library for Python
+p172
+sg4
+(lp173
+VStephen M. McQuay
+p174
+asa(dp175
+g2
+VConstructing scientific programs using Sympy
+p176
+sg4
+(lp177
+VMark Dewing
+p178
+asa(dp179
+g2
+VPython for brain mining: (neuro)science with state of the art machine learning and data visualization
+p180
+sg4
+(lp181
+VGael Varoquaux
+p182
+asa(dp183
+g2
+VKeynote: How Python Slithered into Astronomy
+p184
+sg4
+(lp185
+VPerry Greenfield
+p186
+asa(dp187
+g2
+VUsing Python to Construct a Scalable Parallel Nonlinear Wave Solver
+p188
+sg4
+(lp189
+VKyle Mandli
+p190
+aV Manuel Quezada
+p191
+aV Amal Alghamdi
+p192
+aV Aron Ahmadia
+p193
+aV David Ketcheson
+p194
+aV William Scullin
+p195
+aV Matthew Knepley
+p196
+aV Lisandro Dalcin
+p197
+asa(dp198
+g2
+VTRAPPIST: A toolkit for comparative analysis and visualization of genomic regions
+p199
+sg4
+(lp200
+VGeraldine van der Auwera
+p201
+asa(dp202
+g2
+VFEMhub Online Lab: Scientific computing with Python in web browsers
+p203
+sg4
+(lp204
+VMateusz Paprocki
+p205
+asa(dp206
+g2
+Vatobrute: why plaintext isn't so vanilla
+p207
+sg4
+(lp208
+VAnthony Scopatz
+p209
+asa(dp210
+g2
+VPiCloud - Cloud Computing for Science. SimplifiedKen Elkabany, Aaron Staley, Ken Park
+p211
+sg4
+(lp212
+VKen Elkabany
+p213
+aV Aaron Staley
+p214
+aV Ken Park
+p215
+asa(dp216
+g2
+VPyStream: Compiling Python onto a GPU
+p217
+sg4
+(lp218
+VNick Bray
+p219
+asa(dp220
+g2
+VMetagraph: A Declarative Graphing System for Python
+p221
+sg4
+(lp222
+VPeter Wang
+p223
+asa(dp224
+g2
+VRESTful APIs for Scientific Computing in Django
+p225
+sg4
+(lp226
+VShreyas Cholia and Annette Greiner
+p227
+asa.
