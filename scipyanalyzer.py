@@ -6,6 +6,8 @@ import operator
 import unicodedata
 import kmeans
 
+p = nltk.PorterStemmer()
+
 normalize = lambda x:  unicodedata.normalize("NFKD", x).encode('ascii', 'ignore')
 
 inp = open('scipydata.pk1','rb')
@@ -43,6 +45,7 @@ def getWords(text):
 	words = filter(lambda word: word != '', words)
 	words = [word.lower() for word in words]
 	words = filter(lambda word: not word in stopwords, words)
+	words = [ p.stem(word) for word in words ]
 
 	return words
 
